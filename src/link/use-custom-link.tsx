@@ -1,7 +1,9 @@
-import { GestureResponderEvent, Platform } from 'react-native'
+import { Platform } from 'react-native'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import type { GestureResponderEvent } from 'react-native'
 
 import { useRouter } from '../router'
-import { LinkCoreProps } from './core'
+import type { LinkCoreProps } from './core'
 
 export type UseLinkProps = Pick<LinkCoreProps, 'as' | 'shallow' | 'href'>
 

@@ -65,7 +65,14 @@
     "react-native": "0.68.2",
     "react-native-builder-bob": "^0.18.3",
     "release-it": "^15.0.0",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.2",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/drawer": "^6.1.8",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "eslint-config-nando": "^1.1.0",
+    "moti": "^0.17.1",
+    "next": "^12.0.7"
   },
   "resolutions": {
     "@types/react": "17.0.21"
@@ -111,16 +118,7 @@
       "prettier"
     ],
     "rules": {
-      "prettier/prettier": [
-        "error",
-        {
-          "quoteProps": "consistent",
-          "singleQuote": true,
-          "tabWidth": 2,
-          "trailingComma": "es5",
-          "useTabs": false
-        }
-      ]
+      "prettier/prettier": "off"
     }
   },
   "eslintIgnore": [

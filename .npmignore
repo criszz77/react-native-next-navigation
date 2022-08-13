@@ -1,3 +1,4 @@
 example-monorepos
 .next
 .expo
+node_modules

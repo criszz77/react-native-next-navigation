@@ -1,7 +1,7 @@
 import { useLinkTo } from '@react-navigation/native'
 import { createContext } from 'react'
 
-import { MiddlewareContextType } from './types'
+import type { MiddlewareContextType } from './types'
 
 export const MiddlewareContext = createContext<MiddlewareContextType>({
   useLinkTo,

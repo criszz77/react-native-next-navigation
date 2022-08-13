@@ -1,6 +1,6 @@
 import { createContext } from 'react'
 
-import { MiddlewareContextType } from './types'
+import type { MiddlewareContextType } from './types'
 
 function error() {
   throw new Error(
