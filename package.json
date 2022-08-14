@@ -1,5 +1,6 @@
 {
   "name": "react-native-next-navigation",
+  "type": "module",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index",
